@@ -1,0 +1,12 @@
+p {color: purple;}
+h3 {color: rgb(118, 2, 2)}
+strong {color: rgb(2, 102, 50)}
+ul{color: deeppink;}
+html {background-color: black;padding: 50px}
+span {background-color: red; color: black;}
+/*select all html tags that have a class highlight_01 */
+.highlight_01 {background-color: azure;}
+.highlight_02 {background-color: red; color: black}
+#smokebreak {width: 700px}
+.test-div {color: white;background-color: rgb(255, 145, 0);margin: 30px; padding: 40px;} 
+.my-flex { display: flex;}

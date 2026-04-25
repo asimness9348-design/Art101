@@ -1,0 +1,28 @@
+body {background-image: url("ebx2nwlxqaeacmt-1593105281705_160w.png");{width: 100px; }}
+#body {color:aliceblue}
+#body {
+    background: #590974;
+    padding: 20px;
+    border-radius: 12px; opacity:0.7;
+}
+
+#body h2 {
+    margin-top: 0;
+}
+
+#body li {
+    margin-bottom: 8px;
+}
+
+#body a {
+    color: #1d1184;
+    font-weight: bold;
+}
+.my-flex { display: flex; gap:50px ;}
+#rightside {
+    background: #961726;
+    padding: 20px;
+    border-radius: 12px;  gap:50px; opacity:0.7;
+}
+#overlookinsmoke {width: 500px; padding:20px;  }
+# {width: 500px; padding:20px;  }
