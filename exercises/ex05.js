@@ -4,28 +4,32 @@ let colorCounter=0;
 let mood="neutral";
  
 $("#needy-button").click(function () {
-colorCount = count + 1;
 
-   $("#needy-button").html( "Clicks: " + count + " Color: " + colors[colorCount] );
-   $("body").css("background-color", colors[colorCount]);
+
+   count = count + 1;
   
-   console.log(colors[colorCount]);
-   if (count==4) {
-    count=0;
+   console.log(colors[colorCounter]);
+   if (colorCounter >=4) {
+    colorCounter=0;
     console.log("it happened!!!!");
     }
-    if (colors[colorCount]=="HotPink") {
+
+$("#needy-button").html( "Clicks: " + count + " Color: " + colors[colorCounter] );
+   $("body").css("background-color", colors[colorCounter]);
+
+    if (colors[colorCounter]=="HotPink") {
     $("#needy-button").after("notpink");
     }
-    else if(colors[colorCount]=="Orchid")
+    else if(colors[colorCounter]=="Orchid")
     {
         $("#needy-button").after("...hey Orchid");
     }
-    else {
+
+    else if(colors[colorCounter]!="HotPink"||colors[colorCounter]!="Orchid"){
         $("needy-button").after("all the other colors");
     }
- count = count + 1;
-
+ 
+colorCounter = colorCounter + 1;
  if(count<5) {mood="fresh and happy :D";}
 
  console.log(mood)
