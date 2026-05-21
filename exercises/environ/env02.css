@@ -1,4 +1,9 @@
-body {background-image: url("ebx2nwlxqaeacmt-1593105281705_160w.png")}
+.initial-bg {
+    background-image: url('ebx2nwlxqaeacmt-1593105281705_160w.png');
+}
+.new-bg {
+    background-image: url('photomode_22082024_234902.png');
+}
 #body {color:aliceblue}
 #body {
     background: #590974;
@@ -22,6 +27,8 @@ body {background-image: url("ebx2nwlxqaeacmt-1593105281705_160w.png")}
 #rightside {
     background: #961726;
     padding: 20px;
-    border-radius: 12px;  gap:50px; opacity:0.7;
+    border-radius: 12px;   opacity:0.7;
 }
 #overlookinsmoke {width: 500px; padding:20px;  }
+
+#walk-button {background-color:#590974; color:aliceblue}
